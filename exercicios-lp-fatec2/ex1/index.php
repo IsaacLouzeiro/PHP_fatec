@@ -15,6 +15,18 @@
     </style>
 </head>
 <body>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="..">Início</a>
+        </li>
+        <li class="nav-item">
+            <span class="nav-link">/</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Exercício 1</a>
+        </li>
+    </ul>
+    
     <div class="d-flex flex-column align-items-center pt-5">
         <h2>Exercício 1: Imprimir valores</h2>
         <form class="row g-3 mt-4" method="post" action="">

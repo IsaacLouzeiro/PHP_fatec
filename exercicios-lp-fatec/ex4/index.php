@@ -28,7 +28,7 @@
     </ul>
 
     <div class="d-flex flex-column align-items-center pt-5">
-        <h2>Exercício 4: Cálculo de média</h2>
+        <h2>Exercício 4: Cálculo de Conceito</h2>
         <form class="row g-3 mt-4" method="post" action="index.php">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Nota</label>

@@ -48,11 +48,29 @@
 
         switch ($codigo) {
             case '100':
-                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Cachorro6</div>";
+                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Cachorro Quente: R$ 1,20</div>";
+                break;
+            case '101':
+                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Bauru Simples: R$ 1,30</div>";
+                break;
+            case '102':
+                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Bauru com Ovo: R$ 1,50</div>";
+                break;
+            case '103':
+                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Hamburguer: R$ 1,20</div>";
+                break;
+            case '104':
+                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Cheeseburguer: R$ 1,70</div>";
+                break;
+            case '105':
+                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Suco: R$ 2,20</div>";
+                break;
+            case '106':
+                echo "<div class='alert alert-info text-center container mt-5' role='alert'>Refrigerante: R$ 1,00</div>";
                 break;
             
             default:
-                # code...
+                echo "<div class='alert alert-danger text-center container mt-5' role='alert'>Código inexistente</div>";
                 break;
         }
     ?>
