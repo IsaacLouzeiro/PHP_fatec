@@ -1,0 +1,14 @@
+1 - Criar um exemplo com cadastro em banco de dados em que, obrigatoriamente, você vá usar a API da ViaCep. Você deverá pedir ao usuário para digitar o CEP, buscar os dados desse CEP, e cadastrar no banco de dados esse resultado de busca.
+Por exemplo:
+
+tbCliente
+codCliente
+nomeCliente
+cepCliente
+enderecoCliente
+bairroCliente
+cidadeCliente
+
+Nesse caso, o cep será digitado pelo usuário, ao clicar no botão o endereço, o bairro e a cidade, virão automaticamente pela API, não sendo necessário digitá-los manualmente (Lembrando que é apenas um exemplo, não precisa ser necessariamente essa tabela)
+
+2 - Usando a mesma lógica do exercícios anterior, faça um novo cadastro utilizando outra API. Você pode utilizar a API do Tmdb (https://www.themoviedb.org/?language=pt-BR) ou qualquer outro.
